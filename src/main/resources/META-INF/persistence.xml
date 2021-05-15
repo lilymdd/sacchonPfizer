@@ -6,12 +6,12 @@
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
             <!--   <property name="javax.persistence.jdbc.url"    value="jdbc:sqlserver://localhost; databaseName= " />-->
-              <property name="javax.persistence.jdbc.url"    value="jdbc:sqlserver://pfizersacchondb.cp7nfjnpfmhh.us-east-2.rds.amazonaws.com; databaseName=" />
+            <property name="javax.persistence.jdbc.url"    value="jdbc:sqlserver://pfizersacchondb.cp7nfjnpfmhh.us-east-2.rds.amazonaws.com:1433;databaseName=pfizerSacchon" />
 
            <property name="javax.persistence.jdbc.user" value="dbpass" />
            <property name="javax.persistence.jdbc.password" value="!SYchyrAm*1" />
            <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServer2012Dialect"/>
-           <property name="hibernate.hbm2ddl.auto" value="create" />
+           <property name="hibernate.hbm2ddl.auto" value="update" />
            <property name="hibernate.show_sql" value="true"/>
        </properties>
    </persistence-unit>
