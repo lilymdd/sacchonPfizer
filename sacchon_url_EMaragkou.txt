@@ -1,0 +1,12 @@
+List of instances
+
+http://ec2-3-141-5-248.us-east-2.compute.amazonaws.com:9000/v1/ping
+http://ec2-3-142-97-210.us-east-2.compute.amazonaws.com:9000/v1/ping
+http://ec2-3-141-106-21.us-east-2.compute.amazonaws.com:9000/v1/ping
+
+
+
+Load balancer
+
+http://sacchon-726d3dc3d938b2bd.elb.us-east-2.amazonaws.com:9000/v1/ping
+
